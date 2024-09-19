@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    padding: 40px;
+    background-color: aliceblue;
+}
+.header p{
+    padding: 20px;
+}
+.menu{
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+.menu ul li{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 16px;
+    color: white;
+}
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.col{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.co p{
+    margin: 20px;
+}
+.col::after{
+    content: "";
+    display: table;
+    clear: both;
+}
